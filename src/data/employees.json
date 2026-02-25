@@ -1,0 +1,29 @@
+[
+  {
+    "employeeId": "emp001",
+    "username": "admin",
+    "password": "admin123",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "receptionist",
+    "isActive": true
+  },
+  {
+    "employeeId": "emp002",
+    "username": "sarah.jones",
+    "password": "password123",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "role": "receptionist",
+    "isActive": true
+  },
+  {
+    "employeeId": "emp003",
+    "username": "mike.wilson",
+    "password": "wilson2024",
+    "firstName": "Mike",
+    "lastName": "Wilson",
+    "role": "receptionist",
+    "isActive": true
+  }
+]

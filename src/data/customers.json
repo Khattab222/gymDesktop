@@ -1,0 +1,282 @@
+[
+  {
+    "customerId": "12345678",
+    "personalInfo": {
+      "firstName": "Ahmed",
+      "lastName": "Hassan",
+      "email": "ahmed.hassan@email.com",
+      "phone": "+20-123-456-7890",
+      "dateOfBirth": "1990-05-15",
+      "address": {
+        "street": "123 Gym Street",
+        "city": "Cairo",
+        "zipCode": "11511"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM001",
+      "type": "monthly",
+      "startDate": "2026-02-01",
+      "endDate": "2026-03-01",
+      "status": "active",
+      "services": ["gym", "spa"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "87654321",
+    "personalInfo": {
+      "firstName": "Fatima",
+      "lastName": "Ali",
+      "email": "fatima.ali@email.com",
+      "phone": "+20-987-654-3210",
+      "dateOfBirth": "1985-09-22",
+      "address": {
+        "street": "456 Spa Avenue",
+        "city": "Giza",
+        "zipCode": "12311"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM002",
+      "type": "annual",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "active",
+      "services": ["spa"]
+    },
+    "currentVisit": {
+      "isInside": true,
+      "entryTime": "2026-02-25T17:30:00.000Z",
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "11223344",
+    "personalInfo": {
+      "firstName": "Omar",
+      "lastName": "Mohamed",
+      "email": "omar.mohamed@email.com",
+      "phone": "+20-111-222-3344",
+      "dateOfBirth": "1992-03-10",
+      "address": {
+        "street": "789 Fitness Road",
+        "city": "Alexandria",
+        "zipCode": "21500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM003",
+      "type": "daily",
+      "startDate": "2026-02-25",
+      "endDate": "2026-02-25",
+      "status": "active",
+      "services": ["gym"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "55667788",
+    "personalInfo": {
+      "firstName": "Nour",
+      "lastName": "Ibrahim",
+      "email": "nour.ibrahim@email.com",
+      "phone": "+20-555-666-7788",
+      "dateOfBirth": "1988-11-05",
+      "address": {
+        "street": "321 Health Lane",
+        "city": "Cairo",
+        "zipCode": "11431"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM004",
+      "type": "monthly",
+      "startDate": "2026-01-15",
+      "endDate": "2026-02-15",
+      "status": "expired",
+      "services": ["gym", "spa"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "99887766",
+    "personalInfo": {
+      "firstName": "Khaled",
+      "lastName": "Rashid",
+      "email": "khaled.rashid@email.com",
+      "phone": "+20-999-888-7766",
+      "dateOfBirth": "1995-07-18",
+      "address": {
+        "street": "654 Wellness Street",
+        "city": "Mansoura",
+        "zipCode": "35500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM005",
+      "type": "annual",
+      "startDate": "2025-12-01",
+      "endDate": "2026-11-30",
+      "status": "active",
+      "services": ["gym"]
+    },
+    "currentVisit": {
+      "isInside": true,
+      "entryTime": "2026-02-25T16:45:00.000Z",
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "44332211",
+    "personalInfo": {
+      "firstName": "Layla",
+      "lastName": "Farouk",
+      "email": "layla.farouk@email.com",
+      "phone": "+20-444-333-2211",
+      "dateOfBirth": "1993-12-03",
+      "address": {
+        "street": "987 Strength Plaza",
+        "city": "Cairo",
+        "zipCode": "11728"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM006",
+      "type": "monthly",
+      "startDate": "2026-02-20",
+      "endDate": "2026-03-20",
+      "status": "active",
+      "services": ["spa"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "13579246",
+    "personalInfo": {
+      "firstName": "Youssef",
+      "lastName": "Mansour",
+      "email": "youssef.mansour@email.com",
+      "phone": "+20-135-792-4680",
+      "dateOfBirth": "1987-04-25",
+      "address": {
+        "street": "159 Cardio Circle",
+        "city": "Tanta",
+        "zipCode": "31500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM007",
+      "type": "daily",
+      "startDate": "2026-02-25",
+      "endDate": "2026-02-25",
+      "status": "active",
+      "services": ["gym", "spa"]
+    },
+    "currentVisit": {
+      "isInside": true,
+      "entryTime": "2026-02-25T18:15:00.000Z",
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "24681357",
+    "personalInfo": {
+      "firstName": "Dina",
+      "lastName": "Salah",
+      "email": "dina.salah@email.com",
+      "phone": "+20-246-813-5790",
+      "dateOfBirth": "1991-08-14",
+      "address": {
+        "street": "753 Fitness Way",
+        "city": "Aswan",
+        "zipCode": "81500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM008",
+      "type": "monthly",
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-31",
+      "status": "expired",
+      "services": ["gym"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "36925814",
+    "personalInfo": {
+      "firstName": "Hassan",
+      "lastName": "Zaki",
+      "email": "hassan.zaki@email.com",
+      "phone": "+20-369-258-1470",
+      "dateOfBirth": "1989-01-30",
+      "address": {
+        "street": "852 Athletic Avenue",
+        "city": "Luxor",
+        "zipCode": "85500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM009",
+      "type": "annual",
+      "startDate": "2026-01-15",
+      "endDate": "2027-01-15",
+      "status": "active",
+      "services": ["gym", "spa"]
+    },
+    "currentVisit": {
+      "isInside": false,
+      "entryTime": null,
+      "exitTime": null
+    }
+  },
+  {
+    "customerId": "96385274",
+    "personalInfo": {
+      "firstName": "Mariam",
+      "lastName": "Khalil",
+      "email": "mariam.khalil@email.com",
+      "phone": "+20-963-852-7410",
+      "dateOfBirth": "1994-06-12",
+      "address": {
+        "street": "741 Yoga Lane",
+        "city": "Hurghada",
+        "zipCode": "84500"
+      }
+    },
+    "membership": {
+      "membershipId": "MEM010",
+      "type": "monthly",
+      "startDate": "2026-02-10",
+      "endDate": "2026-03-10",
+      "status": "active",
+      "services": ["spa"]
+    },
+    "currentVisit": {
+      "isInside": true,
+      "entryTime": "2026-02-25T19:00:00.000Z",
+      "exitTime": null
+    }
+  }
+]
