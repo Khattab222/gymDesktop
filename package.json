@@ -1,8 +1,8 @@
 {
-  "name": "my-electron-app",
-  "productName": "my-electron-app",
+  "name": "gym-management-system",
+  "productName": "Gym Management System",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Professional gym management desktop application for tracking members, visits, and statistics",
   "main": ".vite/build/main.js",
   "private": true,
   "scripts": {
