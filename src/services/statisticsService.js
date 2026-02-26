@@ -1,13 +1,13 @@
-import dataService from './dataService.js';
-import { 
-  getDayBounds, 
-  getWeekBounds, 
+import dataService from './dataService';
+import {
+  getDayBounds,
+  getWeekBounds,
   getMonthBounds,
   getCurrentTimestamp,
   formatDuration,
   isToday
-} from '../utils/dateUtils.js';
-import { ERROR_MESSAGES } from '../utils/constants.js';
+} from '../utils/dateUtils';
+import { ERROR_MESSAGES } from '../utils/constants';
 
 class StatisticsService {
   constructor() {

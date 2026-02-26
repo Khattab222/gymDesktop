@@ -1,15 +1,15 @@
-import dataService from './dataService.js';
-import { validateCustomerData, validateBarcode } from '../utils/validators.js';
-import { 
-  MEMBERSHIP_STATUS, 
-  ERROR_MESSAGES, 
-  SUCCESS_MESSAGES 
-} from '../utils/constants.js';
-import { 
-  isSubscriptionExpired, 
+import dataService from './dataService';
+import { validateCustomerData, validateBarcode } from '../utils/validators';
+import {
+  MEMBERSHIP_STATUS,
+  ERROR_MESSAGES,
+  SUCCESS_MESSAGES
+} from '../utils/constants';
+import {
+  isSubscriptionExpired,
   isSubscriptionExpiringSoon,
-  getCurrentTimestamp 
-} from '../utils/dateUtils.js';
+  getCurrentTimestamp
+} from '../utils/dateUtils';
 
 class CustomerService {
   constructor() {

@@ -1,4 +1,4 @@
-import { VALIDATION_RULES } from './constants.js';
+import { VALIDATION_RULES } from './constants';
 
 /**
  * Validate customer ID format

@@ -1,7 +1,7 @@
-import dataService from './dataService.js';
-import customerService from './customerService.js';
-import { getCurrentTimestamp, calculateDuration } from '../utils/dateUtils.js';
-import { ERROR_MESSAGES } from '../utils/constants.js';
+import dataService from './dataService';
+import customerService from './customerService';
+import { getCurrentTimestamp, calculateDuration } from '../utils/dateUtils';
+import { ERROR_MESSAGES } from '../utils/constants';
 
 class VisitorsService {
   constructor() {

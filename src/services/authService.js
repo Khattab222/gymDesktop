@@ -1,6 +1,6 @@
-import dataService from './dataService.js';
-import { STORAGE_KEYS, ERROR_MESSAGES, SUCCESS_MESSAGES } from '../utils/constants.js';
-import { validateLoginCredentials } from '../utils/validators.js';
+import dataService from './dataService';
+import { STORAGE_KEYS, ERROR_MESSAGES, SUCCESS_MESSAGES } from '../utils/constants';
+import { validateLoginCredentials } from '../utils/validators';
 
 class AuthService {
   constructor() {

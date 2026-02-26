@@ -1,5 +1,14 @@
-import { formatDate, formatDuration } from './dateUtils.js';
-import { MEMBERSHIP_TYPES, SERVICE_TYPES, MEMBERSHIP_STATUS } from './constants.js';
+import { formatDate, formatDuration } from './dateUtils';
+import { MEMBERSHIP_TYPES, SERVICE_TYPES, MEMBERSHIP_STATUS } from './constants';
+
+/**
+ * Format time for display (HH:MM format)
+ * @param {string|Date} date - Date/time to format
+ * @returns {string} Formatted time string
+ */
+export const formatTime = (date) => {
+  return formatDate(date, 'time');
+};
 
 /**
  * Format customer name for display
@@ -100,6 +109,11 @@ export const formatCurrency = (amount, currency = 'EGP') => {
   
   return `${amount.toFixed(2)} ${currency}`;
 };
+
+/**
+ * Re-export formatDuration from dateUtils for convenience
+ */
+export { formatDuration } from './dateUtils';
 
 /**
  * Format customer ID for display (add leading zeros if needed)

@@ -2,7 +2,7 @@
 import customersData from '../data/customers.json';
 import employeesData from '../data/employees.json';
 import visitsData from '../data/visits.json';
-import { getCurrentTimestamp } from '../utils/dateUtils.js';
+import { getCurrentTimestamp } from '../utils/dateUtils';
 
 class DataService {
   constructor() {
